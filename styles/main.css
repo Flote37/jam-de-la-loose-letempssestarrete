@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+#scene {
+    height: 80vh;
+}
+
+#player {
+    height: 100px;
+    width:  80px;
+
+    border: solid 2px red;
+
+    position: absolute;
+    left: -100px;
+    top: 300px;
+
+    color:red;
+    text-align: center;
+}
+
+#obstacle1 {
+    height: 70px;
+    width:  50px;
+
+    border: solid 2px white;
+
+    position: absolute;
+    left: 960px;
+    top: 0 ;
+
+    color: white;
+    text-align: center;
+}
+
+#son {
+    height: 20px;
+    width:  70px;
+
+    border: solid 2px goldenrod;
+
+    position: absolute;
+    left: 850px;
+    top: 600px ;
+
+    color: goldenrod;
+}
+
+#text {
+    display: hidden;
+    font-size: 22px;
+}
+
+#text.typewriter {
+    display: inherit;
+    color: goldenrod;
+    text-align: center;
+
+}
+
+#godText {
+    height: 5vh;
+    color: powderblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#miracle {
+    height: 5vh;
+    width: 0px; 
+    background-color: aqua;
+}
